@@ -10,11 +10,11 @@ from telegram.ext import (
 )
 
 # API kalitlarini muhit o'zgaruvchilaridan oladi
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+TELEGRAM_TOKEN = ("8953018034:AAEHQl1ZoSNPyrl4AThYVeY99zP1Zd6VtdM") 
+OPENAI_API_KEY =("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") 
 
 client = OpenAI(api_key=OPENAI_API_KEY)
-
+,
 # Foydalanuvchi ismlarini vaqtincha saqlash
 user_names = {}
 
